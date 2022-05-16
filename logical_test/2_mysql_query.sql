@@ -1,0 +1,1 @@
+select *, max(nilai) as pertamax from tb_mahasiswa tm, tb_mahasiswa_nilai tn, tb_matakuliah tmk where tm.mhs_id=tn.mhs_id and tmk.mk_id=tn.mk_id and tmk.mk_kode='MK303' 
